@@ -1,0 +1,38 @@
+assignment
+freshers
+recruitment
+session fro vn2 onboardings
+hr sheet for offered candidates
+ppt 
+
+
+
+1.Create Flask application.Implement below API calls.
+
+  S1: Employee onboarding	
+	  Description: As a new joinee, he has to fill all the details and store in company portal
+				   Employee: eid, name, pancard, doj, education, year, technology, gender, salary, address, mobileno,emailid, password
+							 001, Madhu  AJKGR9345A, 16-Sep-22, B.Tech, 2018, Python, Male, 600000, 'hno,stno,area,Bangalore,Karnataka', 234324324, nettem@vn2solutions.com,@#$#@$
+				   Data should get stored in database and user should get message
+				   Dear 'ENAME', your employee id is 'EID' and onboarding is completed.
+				   
+	  API Call:
+				Request URL: http://127.0.0.1:5000/signup
+				Request method: POST
+				Payload : {edata in json format}
+				
+  S2: Get edata based on eid
+	 Description : Employee can give his eid, it should dispaly his complete onboarding information
+
+
+	  API Call:
+				Request URL: http://127.0.0.1:5000/getedata/<EID>
+				Request method: GET
+	 
+  S3: Update password
+  
+  S4: Delete emp record(exit)
+  
+  
+  
+  
